@@ -1,0 +1,23 @@
+{
+  "name": "react-native-queue-toast",
+  "version": "1.0.1",
+  "description": "queue show a toast",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/China-Robin/react-native-queue-toast.git"
+  },
+  "keywords": [
+    "queue",
+    "toast"
+  ],
+  "author": "Robin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/China-Robin/react-native-queue-toast/issues"
+  },
+  "homepage": "https://github.com/China-Robin/react-native-queue-toast#readme"
+}
