@@ -4,12 +4,12 @@ npm install react-native-queue-toast --save
 ```
 
 ## 2：使用方法
-### 1：引入头文件
+##### 1：引入头文件
 ```
 import Toast from 'react-native-queue-toast'
 ```
 
-### 2：创建视图
+##### 2：创建视图
 ```
 render() {
   return (
@@ -23,7 +23,7 @@ render() {
 }
 ```
 
-### 3：调用方法
+##### 3：调用方法
 ```
 _show(){
   this.toast.showSuccess("提交成功!");
@@ -69,3 +69,6 @@ callback // 消失后的回调方法
       callback: () => {},
     });
 ```
+
+## 5：演示图片
+![](https://github.com/China-Robin/react-native-queue-toast/master/toast.gif)
