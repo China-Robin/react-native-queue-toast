@@ -71,4 +71,4 @@ callback // 消失后的回调方法
 ```
 
 ## 5：演示图片
-![](https://github.com/China-Robin/react-native-queue-toast/master/toast.gif)
+![](https://github.com/China-Robin/react-native-queue-toast/blob/master/toast.gif)
