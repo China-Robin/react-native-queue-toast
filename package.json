@@ -1,6 +1,6 @@
 {
   "name": "react-native-queue-toast",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "queue show a toast",
   "main": "index.js",
   "scripts": {

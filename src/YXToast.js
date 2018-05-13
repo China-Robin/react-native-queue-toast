@@ -279,7 +279,7 @@ export default class YXToast extends Component {
   }
 
   // 该方法目的是为了在最顶层的时候，一样可以点击
-  resetLocation(e){
+  _resetLocation(e){
     if(!this.state.mask){
       this.refs.contentView.setNativeProps({
         style: {
@@ -344,7 +344,7 @@ export default class YXToast extends Component {
             marginTop: this.state.marginTopValue
           }
         ]}>
-        <Animated.View onLayout={({nativeEvent:e})=>this.resetLocation(e)}
+        <Animated.View onLayout={({nativeEvent:e})=>this._resetLocation(e)}
                        style={[styles.content, {opacity: this.state.opacityValue, }, contentStyle]}>
           {this.state.status !== YXToastStatus.Wait ? null :
             <ActivityIndicator
